@@ -36,6 +36,7 @@ select char_length(title) as title_legnth from books;
 
 3rd-replace()
 select replace(title,'a','@')
+    select replace (title,'a','@') as titlenew from books;
 
 4th-upper()
 select upper("Ganesh");
