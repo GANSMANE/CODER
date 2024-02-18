@@ -1,0 +1,89 @@
+.h{
+    background-color: aqua;
+    text-align: center;
+    
+    }
+.m1{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;                          
+        justify-content: space-around;
+        text-align:center ;
+
+    }
+.d1{
+    background-color: rgb(42, 130, 217);
+        width: 200px;
+        height: 200px;
+        border: solid;
+        box-shadow: 10px 10px 10px rgb(39, 72, 205);
+        /*animation:ganesh; 
+        animation-duration: 1s;
+        animation-iteration-count: infinite;*/
+        transition: all;
+        transition-duration: 3s;
+
+}
+.d1:hover{
+    background-color: yellow;
+    transform: scale(1.5);
+}
+/*
+@keyframes ganesh {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 300px;
+        background-color: red;
+    }
+    
+}*/
+
+.d2{
+    background-color: rgb(20, 195, 44);
+        width: 200px;
+        height: 200px;
+        border: solid;
+        box-shadow: 10px 10px 10px rgb(63, 117, 75);
+        transition: all;
+        transition-duration: 3s;
+
+}
+.d2:hover{
+    background-color: rgb(227, 23, 166);
+    transform: rotate(360deg);
+}
+.d3{
+    background-color: rgb(233, 222, 18);
+        width: 200px;
+        height: 200px;
+        border: solid;
+        box-shadow: 10px 10px 10px rgb(121, 147, 28);
+        transition: all;
+        transition-duration: 3s;
+
+}
+.d3:hover{
+    background-color: rgb(68, 34, 239);
+    transform:translateX(50px);
+}
+.d4{
+    background-color: rgb(239, 51, 151);
+        width: 200px;
+        height: 200px;
+        border: solid;
+        box-shadow: 10px 10px 10px rgb(205, 39, 177);
+        transition: all;
+        transition-duration: 3s;
+
+}
+.d4:hover{
+    background-color: rgb(24, 219, 76);
+    transform:translateY(50px)
+}
+.d5{
+    background-color:white;
+        width: 200px;
+        height: 200px;
+}
